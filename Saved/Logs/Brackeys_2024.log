@@ -1060,3 +1060,173 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.09.09-13.30.45:563][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
 [2024.09.09-13.30.45:650][  0]LogAssetRegistry: Display: Asset registry cache written as 19.1 MiB to ../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Intermediate/CachedAssetRegistry_*.bin
 [2024.09.09-13.32.41:154][  0]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.102 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4592 files in 5652 folders with total size 555 MiB.
+[2024.09.09-14.02.46:267][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2024.09.09-14.02.48:728][  0]LogSlate: Window 'Unable to Check Out From Revision Control!' being destroyed
+[2024.09.09-14.02.48:768][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/3U/20N02J4AXE5CSGEHTMHKS6
+/Game/Characters/Mannequins/Animations/PushIdle_BS
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG
+[2024.09.09-14.02.48:810][  0]LogUnrealEdMisc: Loading editor; pre map load, took 1939.171
+[2024.09.09-14.02.48:811][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.09.09-14.02.48:811][  0]LightingResults: New page: Lighting Build
+[2024.09.09-14.02.48:813][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.09.09-14.02.48:813][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.09-14.02.48:814][  0]MapCheck: New page: Map Check
+[2024.09.09-14.02.48:814][  0]LightingResults: New page: Lighting Build
+[2024.09.09-14.02.48:817][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.09-14.02.48:820][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.09.09-14.02.49:305][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.09.09-14.02.49:348][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2024.09.09-14.02.49:348][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.09-14.02.49:348][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.09-14.02.49:349][  0]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.09.09-14.02.49:350][  0]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.09.09-14.02.49:350][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.09.09-14.02.49:350][  0]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.09.09-14.02.49:471][  0]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.09.09-14.02.49:471][  0]LogWorldPartition: Display: WorldPartition initialize took 120 ms
+[2024.09.09-14.02.49:474][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.09.09-14.02.49:480][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.09.09-14.02.49:480][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.09.09-14.02.49:480][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.278ms to complete.
+[2024.09.09-14.02.49:489][  0]LogUnrealEdMisc: Total Editor Startup Time, took 1939.851
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: ================================================
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: RAM used: 240.00 B of 819.20 MiB budget. Usage: 0.00%
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.09.09-14.02.49:489][  0]LogShaderCompilers: Display: ================================================
+[2024.09.09-14.02.49:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.09-14.02.49:678][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.09-14.02.49:689][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.09-14.02.49:698][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.09-14.02.49:781][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:784][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:786][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:786][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:787][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:787][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:788][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:788][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:789][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:789][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:791][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:791][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:792][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:792][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:793][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:793][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:794][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:794][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2024.09.09-14.02.49:795][  0]LogPakFile: Initializing PakPlatformFile
+[2024.09.09-14.02.49:795][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2024.09.09-14.02.50:098][  0]LogSlate: Took 0.000486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.09.09-14.02.50:100][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.09.09-14.02.50:133][  0]LogViewport: Scene viewport resized to 1995x1318, mode Windowed.
+[2024.09.09-14.02.50:847][  0]LogStall: Startup...
+[2024.09.09-14.02.50:848][  0]LogStall: Startup complete.
+[2024.09.09-14.02.50:898][  0]LogLoad: (Engine Initialization) Total time: 1941.26 seconds
+[2024.09.09-14.02.50:898][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.09.09-14.02.51:092][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.09.09-14.02.51:298][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.09.09-14.02.51:431][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2024.09.09-14.02.51:441][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.045154 secs
+[2024.09.09-14.02.51:454][  1]LogAssetRegistry: AssetRegistryGather time 8.7998s: AssetDataDiscovery 0.1139s, AssetDataGather 8.6458s, StoreResults 0.0401s.
+[2024.09.09-14.02.51:478][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2024.09.09-14.03.03:117][601]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.09-14.03.03:122][601]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.09.09-14.03.03:122][601]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.09.09-14.03.03:125][601]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms
+[2024.09.09-14.03.03:128][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.09-14.03.03:130][601]PIE: New page: PIE session: ThirdPersonMap (10 Sep 2024, 6:03:03 am)
+[2024.09.09-14.03.03:136][601]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.09.09-14.03.03:136][601]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.09.09-14.03.03:137][601]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.09.09-14.03.03:145][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007595s)
+[2024.09.09-14.03.03:145][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007643s)
+[2024.09.09-14.03.03:149][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.09.09-14.03.03:150][601]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.09-14.03.03:151][601]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.09-14.03.03:151][601]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.09.09-14.03.03:154][601]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.09.09-14.03.03:154][601]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.09.09-14.03.03:154][601]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.09.09-14.03.03:154][601]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.09.09-14.03.03:155][601]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.09.09-14.03.03:155][601]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 122 ms)
+[2024.09.09-14.03.03:155][601]LogPlayLevel: PIE: World Init took: (0.004927s)
+[2024.09.09-14.03.03:156][601]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.09.09-14.03.03:156][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.09-14.03.03:156][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.09-14.03.03:156][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.09-14.03.03:156][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.09-14.03.03:156][601]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.09-14.03.03:156][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.09-14.03.03:156][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.09-14.03.03:156][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.09-14.03.03:156][601]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.09-14.03.03:156][601]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.09-14.03.03:156][601]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.09-14.03.03:158][601]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.09-14.03.03:276][601]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.09-14.03.03:276][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.09-14.03.03:277][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.09-14.03.03:277][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.09-14.03.03:277][601]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.09.09-14.03.03:277][601]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.09.09-14.03.03:278][601]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.09.09-14.03.03:278][601]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.09.09-14.03.03:278][601]LogInit: FAudioDevice initialized with ID 2.
+[2024.09.09-14.03.03:278][601]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2024.09.09-14.03.03:278][601]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.09.09-14.03.03:284][601]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.09-14.03.03:287][601]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.09.09-22.03.03
+[2024.09.09-14.03.03:288][601]LogWorld: Bringing up level for play took: 0.003056
+[2024.09.09-14.03.03:290][601]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2024.09.09-14.03.03:308][601]LogScript: Warning: Accessed None trying to read property PushComponent
+	ABP_Quinn_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.ABP_Quinn_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:018C
+[2024.09.09-14.03.03:309][601]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PushComponent". Node:  Set IsHoldingAnObject Graph:  EventGraph Function:  Execute Ubergraph ABP Manny Blueprint:  ABP_Manny
+[2024.09.09-14.03.03:331][601]PIE: Server logged in
+[2024.09.09-14.03.03:332][601]PIE: Play in editor total start time 0.21 seconds.
+[2024.09.09-14.03.22:297][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.09-14.03.22:297][727]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.09.09-14.03.22:298][727]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.09.09-14.03.22:300][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.09-14.03.22:302][727]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.09.09-14.03.22:308][727]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.09-14.03.22:309][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.09-14.03.22:313][727]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.09-14.03.22:314][727]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.09.09-14.03.22:316][727]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.09.09-14.03.22:317][727]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.09.09-14.03.22:369][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.09-14.03.22:373][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.09.09-14.03.22:528][728]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2024.09.09-14.03.33:633][387]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2024.09.09-14.03.33:645][387]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.09-14.03.33:645][387]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.09-14.03.33:721][387]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.09-14.03.33:721][387]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.09-14.03.33:779][387]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.09.09-14.03.33:792][387]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.09.09-14.03.34:907][387]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.09-14.03.34:908][387]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.09-14.03.35:045][387]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.09-14.03.35:096][387]LogSlate: Took 0.000473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.09.09-14.03.35:104][387]LogViewport: Scene viewport resized to 633x601, mode Windowed.
+[2024.09.09-14.03.38:508][541]LogSlate: Window 'ABP_Manny' being destroyed
+[2024.09.09-14.03.38:520][541]LogSlate: Window 'ABP_Manny' being destroyed
+[2024.09.09-14.03.38:554][541]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.09.09-14.03.38:554][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.09-14.03.38:568][541]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.09.09-14.03.38:568][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.09-14.03.38:609][541]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.09-14.03.38:609][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.09-14.03.40:621][656]LogSlate: Window 'Message Log' being destroyed
+[2024.09.09-14.03.40:632][656]LogSlate: Window 'Message Log' being destroyed
