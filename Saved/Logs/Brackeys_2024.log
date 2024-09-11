@@ -12445,3 +12445,628 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.09.11-16.53.15:737][514]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Scene/Jediah/Mixamo/Mats/JustTryHopeIg.JustTryHopeIg
 [2024.09.11-16.53.15:737][514]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Scene/Jediah/Mixamo/Push.Push
 [2024.09.11-16.53.15:798][515]LogAutomationController: Ignoring very large delta of 3.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.09.11-16.54.42:492][938]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-16.54.42:492][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-16.54.42:543][938]LogUMG: Warning: The requested size for SRetainerWidget is 0. W:822 H:0
+[2024.09.11-16.54.44:629][ 40]LogSlate: Window 'Firefly' being destroyed
+[2024.09.11-16.54.44:644][ 40]LogSlate: Window 'Firefly' being destroyed
+[2024.09.11-16.54.44:699][ 40]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-16.54.44:704][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-16.54.44:730][ 40]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-16.54.44:730][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-16.54.44:788][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: ================================================
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Total job queries 2,738, among them cache hits 2,247 (82.07%)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Tracking 434 distinct input hashes that result in 201 distinct outputs (46.31%)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: RAM used: 11.18 MiB of 819.20 MiB budget. Usage: 1.36%
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Shaders Compiled: 414
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Jobs assigned 414, completed 414 (100%)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Average time worker was idle: 105.38 s
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Time job spent in pending queue: average 0.25 s, longest 1.20 s
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 2.27 s
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Job life time (pending + execution): average 0.73 s, max 2.37
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Shader code size: average 42.844 KiB, min 1.932 KiB, max 71.773 KiB
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 49.93 s
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Jobs were issued in 414 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Average processing rate: 8.29 jobs/sec
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Total thread time: 134.912 s
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Total thread preprocess time: 18.052 s
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Percentage time preprocessing: 13.38%
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Effective parallelization: 2.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:                                               FNiagaraShader - 10.36% of total time (compiled   52 times, average 0.27 sec, max 0.71 sec, min 0.04 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.99% of total time (compiled   29 times, average 0.37 sec, max 1.74 sec, min 0.02 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.22% of total time (compiled   29 times, average 0.34 sec, max 1.35 sec, min 0.01 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.78% of total time (compiled   23 times, average 0.40 sec, max 0.77 sec, min 0.01 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 6.21% of total time (compiled   23 times, average 0.36 sec, max 0.70 sec, min 0.01 sec)
+[2024.09.11-16.55.45:182][404]LogShaderCompilers: Display: ================================================
+[2024.09.11-16.55.59:214][177]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Stylized_PBR_Nature/Foliage/Assets/SM_Bush.SM_Bush
+[2024.09.11-16.55.59:356][177]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-16.55.59:356][177]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-16.55.59:912][177]LogViewport: Scene viewport resized to 1872x1321, mode Windowed.
+[2024.09.11-16.56.03:324][322]LogSlate: Window 'SM_Bush' being destroyed
+[2024.09.11-16.56.03:364][322]LogSlate: Window 'SM_Bush' being destroyed
+[2024.09.11-16.56.03:416][322]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-16.56.03:416][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-16.56.07:157][528]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Stylized_PBR_Nature/Foliage/Assets/SM_Bush.SM_Bush
+[2024.09.11-16.56.07:256][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-16.56.07:256][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-16.56.07:758][528]LogViewport: Scene viewport resized to 1872x1321, mode Windowed.
+[2024.09.11-16.57.17:139][549]LogSlate: Window 'SM_Bush' being destroyed
+[2024.09.11-16.57.17:169][549]LogSlate: Window 'SM_Bush' being destroyed
+[2024.09.11-16.57.17:236][549]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-16.57.17:236][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-16.58.40:941][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.09.11-16.58.41:161][448]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-16.58.41:185][448]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scene/Jediah/Jediah_Test.Jediah_Test
+[2024.09.11-16.58.41:185][448]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Scene/Jediah/Jediah_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.09.11-16.58.41:185][448]LightingResults: New page: Lighting Build
+[2024.09.11-16.58.41:185][448]LoadErrors: New page: Loading map: Jediah_Test.umap
+[2024.09.11-16.58.41:206][448]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-16.58.41:206][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-16.58.41:208][448]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.09.11-16.58.41:208][448]MapCheck: New page: Map Check
+[2024.09.11-16.58.41:208][448]LightingResults: New page: Lighting Build
+[2024.09.11-16.58.41:222][448]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.11-16.58.41:227][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.09.11-16.58.41:235][448]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-16.58.41:236][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-16.58.41:257][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.09.11-16.58.41:268][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.09.11-16.58.41:306][448]LogAudio: Display: Audio Device (ID: 1) registered with world 'Jediah_Test'.
+[2024.09.11-16.58.41:306][448]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-16.58.41:306][448]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-16.58.41:306][448]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-16.58.41:427][448]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.09.11-16.58.41:447][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.09.11-16.58.41:457][448]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.09.11-16.58.41:457][448]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.102ms to complete.
+[2024.09.11-16.59.59:132][574]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.281 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6141 files in 7506 folders with total size 666 MiB.
+[2024.09.11-17.04.17:851][ 31]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.04.19:625][107]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.SM_Bush_FoliageType
+[2024.09.11-17.04.35:655][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.04.35:794][863]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType
+[2024.09.11-17.04.35:795][863]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Bush_FoliageTypeB623DDA6419E47C641FC6EAF454230AF.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.uasset'
+[2024.09.11-17.04.35:814][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 26.7 sec)
+[2024.09.11-17.04.35:817][863]AssetCheck: New page: Asset Save: SM_Bush_FoliageType
+[2024.09.11-17.04.35:817][863]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.SM_Bush_FoliageType
+[2024.09.11-17.04.39:650][ 45]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.04.39:660][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.04.39:660][ 45]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:04:39 am)
+[2024.09.11-17.04.39:660][ 45]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.04.39:689][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029909s)
+[2024.09.11-17.04.39:690][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.029964s)
+[2024.09.11-17.04.39:700][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.09.11-17.04.39:712][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.04.39:712][ 45]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.04.39:712][ 45]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.04.39:712][ 45]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2024.09.11-17.04.39:712][ 45]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2024.09.11-17.04.39:712][ 45]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.04.39:712][ 45]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.04.39:712][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.04.39:712][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.04.39:712][ 45]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.04.39:712][ 45]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.04.39:712][ 45]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.04.39:712][ 45]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.04.39:714][ 45]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.04.39:714][ 45]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.04.39:714][ 45]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.04.39:716][ 45]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.04.39:851][ 45]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.04.39:851][ 45]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.04.39:851][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.04.39:851][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.04.39:852][ 45]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2024.09.11-17.04.39:852][ 45]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2024.09.11-17.04.39:854][ 45]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2024.09.11-17.04.39:854][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2024.09.11-17.04.39:854][ 45]LogInit: FAudioDevice initialized with ID 60.
+[2024.09.11-17.04.39:854][ 45]LogAudio: Display: Audio Device (ID: 60) registered with world 'Jediah_Test'.
+[2024.09.11-17.04.39:854][ 45]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2024.09.11-17.04.39:857][ 45]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.04.39:865][ 45]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.04.39
+[2024.09.11-17.04.39:865][ 45]LogWorld: Bringing up level for play took: 0.009038
+[2024.09.11-17.04.39:869][ 45]LogOnline: OSS: Created online subsystem instance for: :Context_146
+[2024.09.11-17.04.39:872][ 45]PIE: Server logged in
+[2024.09.11-17.04.39:874][ 45]PIE: Play in editor total start time 0.214 seconds.
+[2024.09.11-17.04.52:925][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.04.52:925][555]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.04.52:925][555]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.04.52:926][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.04.52:944][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.04.52:947][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.04.52:961][555]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.11-17.04.52:961][555]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2024.09.11-17.04.52:961][555]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.09.11-17.04.52:964][555]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.09.11-17.04.53:049][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.04.53:053][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.09.11-17.04.53:117][556]LogPlayLevel: Display: Destroying online subsystem :Context_146
+[2024.09.11-17.04.58:128][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.04.58:251][789]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType
+[2024.09.11-17.04.58:251][789]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Bush_FoliageTypeCCEB4121481017C681CEC4A65B34F9BA.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.uasset'
+[2024.09.11-17.04.58:268][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 26.8 sec)
+[2024.09.11-17.04.58:270][789]AssetCheck: New page: Asset Save: SM_Bush_FoliageType
+[2024.09.11-17.04.58:270][789]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.SM_Bush_FoliageType
+[2024.09.11-17.05.00:155][877]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.05.00:164][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.05.00:164][877]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:05:00 am)
+[2024.09.11-17.05.00:164][877]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.05.00:192][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028344s)
+[2024.09.11-17.05.00:192][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.028413s)
+[2024.09.11-17.05.00:207][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.09.11-17.05.00:210][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.05.00:210][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.05.00:211][877]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.05.00:211][877]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2024.09.11-17.05.00:211][877]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2024.09.11-17.05.00:211][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.05.00:212][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.05.00:212][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.05.00:212][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.05.00:212][877]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.05.00:212][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.05.00:212][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.05.00:212][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.05.00:212][877]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.05.00:212][877]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.05.00:212][877]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.05.00:214][877]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.05.00:369][877]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.05.00:369][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.05.00:369][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.05.00:369][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.05.00:370][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2024.09.11-17.05.00:370][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2024.09.11-17.05.00:372][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2024.09.11-17.05.00:372][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2024.09.11-17.05.00:372][877]LogInit: FAudioDevice initialized with ID 61.
+[2024.09.11-17.05.00:372][877]LogAudio: Display: Audio Device (ID: 61) registered with world 'Jediah_Test'.
+[2024.09.11-17.05.00:372][877]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2024.09.11-17.05.00:376][877]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.05.00:390][877]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.05.00
+[2024.09.11-17.05.00:391][877]LogWorld: Bringing up level for play took: 0.014169
+[2024.09.11-17.05.00:394][877]LogOnline: OSS: Created online subsystem instance for: :Context_147
+[2024.09.11-17.05.00:397][877]PIE: Server logged in
+[2024.09.11-17.05.00:397][877]PIE: Play in editor total start time 0.234 seconds.
+[2024.09.11-17.05.04:915][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.05.04:915][ 44]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.05.04:915][ 44]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.05.04:917][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.05.04:924][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.05.04:927][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.05.04:938][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.05.04:939][ 44]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2024.09.11-17.05.04:939][ 44]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.09.11-17.05.04:942][ 44]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.09.11-17.05.05:032][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.09.11-17.05.05:096][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_147
+[2024.09.11-17.05.09:821][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.05.09:962][243]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType
+[2024.09.11-17.05.09:964][243]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Bush_FoliageTypeE80E434E4C6FAE7C4249BE93D3F3EDCF.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.uasset'
+[2024.09.11-17.05.09:979][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 27.0 sec)
+[2024.09.11-17.05.09:981][243]AssetCheck: New page: Asset Save: SM_Bush_FoliageType
+[2024.09.11-17.05.09:981][243]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.SM_Bush_FoliageType
+[2024.09.11-17.05.13:584][391]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.05.13:591][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.05.13:591][391]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:05:13 am)
+[2024.09.11-17.05.13:615][391]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.05.13:647][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031777s)
+[2024.09.11-17.05.13:647][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.031838s)
+[2024.09.11-17.05.13:663][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.09.11-17.05.13:667][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.05.13:667][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.05.13:667][391]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.05.13:668][391]LogPlayLevel: PIE: World Init took: (0.001123s)
+[2024.09.11-17.05.13:668][391]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2024.09.11-17.05.13:668][391]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.05.13:668][391]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.05.13:668][391]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.05.13:668][391]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.05.13:668][391]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.05.13:668][391]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.05.13:668][391]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.05.13:668][391]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.05.13:668][391]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.05.13:668][391]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.05.13:668][391]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.05.13:671][391]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.05.13:818][391]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.05.13:819][391]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.05.13:819][391]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.05.13:819][391]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.05.13:819][391]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2024.09.11-17.05.13:819][391]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2024.09.11-17.05.13:821][391]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2024.09.11-17.05.13:821][391]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2024.09.11-17.05.13:821][391]LogInit: FAudioDevice initialized with ID 62.
+[2024.09.11-17.05.13:821][391]LogAudio: Display: Audio Device (ID: 62) registered with world 'Jediah_Test'.
+[2024.09.11-17.05.13:821][391]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2024.09.11-17.05.13:825][391]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.05.13:834][391]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.05.13
+[2024.09.11-17.05.13:834][391]LogWorld: Bringing up level for play took: 0.009494
+[2024.09.11-17.05.13:837][391]LogOnline: OSS: Created online subsystem instance for: :Context_148
+[2024.09.11-17.05.13:840][391]PIE: Server logged in
+[2024.09.11-17.05.13:840][391]PIE: Play in editor total start time 0.249 seconds.
+[2024.09.11-17.05.28:475][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.05.28:476][220]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.05.28:476][220]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.05.28:477][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.05.28:483][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.05.28:485][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.05.28:500][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.05.28:502][220]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2024.09.11-17.05.28:502][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.09.11-17.05.28:505][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.09.11-17.05.28:596][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.09.11-17.05.28:643][221]LogPlayLevel: Display: Destroying online subsystem :Context_148
+[2024.09.11-17.07.54:999][427]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.SM_Grass_FoliageType
+[2024.09.11-17.08.01:536][738]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.08.01:672][738]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType
+[2024.09.11-17.08.01:674][738]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Grass_FoliageType45B3701E4F5145E5168106B5554FC4FD.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.uasset'
+[2024.09.11-17.08.01:689][738]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 27.1 sec)
+[2024.09.11-17.08.01:692][738]AssetCheck: New page: Asset Save: SM_Grass_FoliageType
+[2024.09.11-17.08.01:692][738]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.SM_Grass_FoliageType
+[2024.09.11-17.08.03:354][826]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.08.03:364][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.08.03:364][826]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:08:03 am)
+[2024.09.11-17.08.03:385][826]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.08.03:418][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032289s)
+[2024.09.11-17.08.03:418][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.032407s)
+[2024.09.11-17.08.03:432][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.09.11-17.08.03:435][826]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.08.03:435][826]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.08.03:435][826]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.08.03:436][826]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2024.09.11-17.08.03:436][826]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2024.09.11-17.08.03:436][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.08.03:436][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.08.03:436][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.08.03:436][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.08.03:436][826]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.08.03:436][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.08.03:436][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.08.03:436][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.08.03:436][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.08.03:436][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.08.03:436][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.08.03:439][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.08.03:598][826]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.08.03:598][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.08.03:598][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.08.03:598][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.08.03:599][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2024.09.11-17.08.03:599][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2024.09.11-17.08.03:602][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2024.09.11-17.08.03:602][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2024.09.11-17.08.03:602][826]LogInit: FAudioDevice initialized with ID 63.
+[2024.09.11-17.08.03:602][826]LogAudio: Display: Audio Device (ID: 63) registered with world 'Jediah_Test'.
+[2024.09.11-17.08.03:602][826]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2024.09.11-17.08.03:605][826]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.08.03:615][826]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.08.03
+[2024.09.11-17.08.03:616][826]LogWorld: Bringing up level for play took: 0.009974
+[2024.09.11-17.08.03:618][826]LogOnline: OSS: Created online subsystem instance for: :Context_149
+[2024.09.11-17.08.03:621][826]PIE: Server logged in
+[2024.09.11-17.08.03:622][826]PIE: Play in editor total start time 0.258 seconds.
+[2024.09.11-17.08.31:756][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.08.31:756][265]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.08.31:756][265]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.08.31:757][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.08.31:760][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.08.31:765][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.08.31:781][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.08.31:781][265]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2024.09.11-17.08.31:782][265]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.09.11-17.08.31:784][265]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.09.11-17.08.31:884][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.09.11-17.08.31:931][266]LogPlayLevel: Display: Destroying online subsystem :Context_149
+[2024.09.11-17.08.36:637][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.08.36:783][463]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType
+[2024.09.11-17.08.36:784][463]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Grass_FoliageType899261E944FB36C1FF732799277911D2.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.uasset'
+[2024.09.11-17.08.36:794][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 27.3 sec)
+[2024.09.11-17.08.36:795][463]AssetCheck: New page: Asset Save: SM_Grass_FoliageType
+[2024.09.11-17.08.36:795][463]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.SM_Grass_FoliageType
+[2024.09.11-17.08.39:070][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.08.39:079][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.08.39:079][567]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:08:39 am)
+[2024.09.11-17.08.39:079][567]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.08.39:109][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029857s)
+[2024.09.11-17.08.39:109][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.029919s)
+[2024.09.11-17.08.39:124][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.09.11-17.08.39:126][567]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.08.39:126][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.08.39:126][567]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.08.39:126][567]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2024.09.11-17.08.39:126][567]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2024.09.11-17.08.39:126][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.08.39:128][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.08.39:128][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.08.39:128][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.08.39:128][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.08.39:128][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.08.39:128][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.08.39:128][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.08.39:128][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.08.39:128][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.08.39:128][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.08.39:130][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.08.39:286][567]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.08.39:286][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.08.39:286][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.08.39:286][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.08.39:286][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2024.09.11-17.08.39:286][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2024.09.11-17.08.39:289][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2024.09.11-17.08.39:289][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2024.09.11-17.08.39:289][567]LogInit: FAudioDevice initialized with ID 64.
+[2024.09.11-17.08.39:289][567]LogAudio: Display: Audio Device (ID: 64) registered with world 'Jediah_Test'.
+[2024.09.11-17.08.39:289][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2024.09.11-17.08.39:293][567]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.08.39:302][567]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.08.39
+[2024.09.11-17.08.39:302][567]LogWorld: Bringing up level for play took: 0.009665
+[2024.09.11-17.08.39:305][567]LogOnline: OSS: Created online subsystem instance for: :Context_150
+[2024.09.11-17.08.39:307][567]PIE: Server logged in
+[2024.09.11-17.08.39:308][567]PIE: Play in editor total start time 0.229 seconds.
+[2024.09.11-17.08.50:145][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.08.50:145][ 62]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.08.50:145][ 62]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.08.50:146][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.08.50:166][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.08.50:169][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.08.50:182][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.08.50:185][ 62]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2024.09.11-17.08.50:185][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.09.11-17.08.50:187][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.09.11-17.08.50:278][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.09.11-17.08.50:322][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_150
+[2024.09.11-17.08.56:612][271]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.08.56:766][271]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType
+[2024.09.11-17.08.56:767][271]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Bush_FoliageType75122CBC4AE30BB9ADF9278741AEEA84.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.uasset'
+[2024.09.11-17.08.56:781][271]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 27.5 sec)
+[2024.09.11-17.08.56:782][271]AssetCheck: New page: Asset Save: SM_Bush_FoliageType
+[2024.09.11-17.08.56:782][271]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.SM_Bush_FoliageType
+[2024.09.11-17.08.58:875][347]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.08.58:885][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.08.58:885][347]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:08:58 am)
+[2024.09.11-17.08.58:885][347]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.08.58:913][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028631s)
+[2024.09.11-17.08.58:913][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.028701s)
+[2024.09.11-17.08.58:925][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.09.11-17.08.58:928][347]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.08.58:928][347]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.08.58:929][347]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.08.58:929][347]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2024.09.11-17.08.58:929][347]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2024.09.11-17.08.58:929][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.08.58:929][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.08.58:929][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.08.58:929][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.08.58:929][347]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.08.58:929][347]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.08.58:929][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.08.58:929][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.08.58:930][347]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.08.58:930][347]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.08.58:930][347]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.08.58:932][347]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.08.59:068][347]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.08.59:068][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.08.59:068][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.08.59:068][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.08.59:069][347]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2024.09.11-17.08.59:069][347]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2024.09.11-17.08.59:071][347]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2024.09.11-17.08.59:071][347]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2024.09.11-17.08.59:071][347]LogInit: FAudioDevice initialized with ID 65.
+[2024.09.11-17.08.59:071][347]LogAudio: Display: Audio Device (ID: 65) registered with world 'Jediah_Test'.
+[2024.09.11-17.08.59:071][347]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2024.09.11-17.08.59:074][347]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.08.59:083][347]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.08.59
+[2024.09.11-17.08.59:083][347]LogWorld: Bringing up level for play took: 0.008984
+[2024.09.11-17.08.59:086][347]LogOnline: OSS: Created online subsystem instance for: :Context_151
+[2024.09.11-17.08.59:089][347]PIE: Server logged in
+[2024.09.11-17.08.59:089][347]PIE: Play in editor total start time 0.205 seconds.
+[2024.09.11-17.09.22:285][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.09.22:285][419]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.09.22:285][419]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.09.22:287][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.09.22:292][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.09.22:296][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.09.22:307][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.09.22:308][419]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2024.09.11-17.09.22:308][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.09.11-17.09.22:310][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.09.11-17.09.22:397][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.09.11-17.09.22:448][420]LogPlayLevel: Display: Destroying online subsystem :Context_151
+[2024.09.11-17.09.27:474][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.09.27:622][632]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType
+[2024.09.11-17.09.27:623][632]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Grass_FoliageType5EDE55B04CEFBB37926AE0B3B522C60D.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.uasset'
+[2024.09.11-17.09.27:635][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 27.6 sec)
+[2024.09.11-17.09.27:637][632]AssetCheck: New page: Asset Save: SM_Grass_FoliageType
+[2024.09.11-17.09.27:637][632]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.SM_Grass_FoliageType
+[2024.09.11-17.09.30:870][778]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_01_FoliageType.SM_Common_Tree_01_FoliageType
+[2024.09.11-17.09.35:794][947]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_03_FoliageType.SM_Common_Tree_03_FoliageType
+[2024.09.11-17.09.36:812][985]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_07_FoliageType.SM_Common_Tree_07_FoliageType
+[2024.09.11-17.09.37:778][ 23]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_08_FoliageType.SM_Common_Tree_08_FoliageType
+[2024.09.11-17.09.38:698][ 59]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_10_FoliageType.SM_Common_Tree_10_FoliageType
+[2024.09.11-17.09.39:682][ 98]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_11_FoliageType.SM_Common_Tree_11_FoliageType
+[2024.09.11-17.09.40:686][137]LogAssetEditorSubsystem: Opening Asset editor for FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Fern_FoliageType.SM_Fern_FoliageType
+[2024.09.11-17.09.50:052][552]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.09.50:194][552]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Fern_FoliageType
+[2024.09.11-17.09.50:194][552]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Fern_FoliageType80EF7BE64D91DBC28C4CD89CD8CF0B67.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Fern_FoliageType.uasset'
+[2024.09.11-17.09.50:204][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 27.8 sec)
+[2024.09.11-17.09.50:206][552]AssetCheck: New page: Asset Save: SM_Fern_FoliageType
+[2024.09.11-17.09.50:206][552]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Fern_FoliageType.SM_Fern_FoliageType
+[2024.09.11-17.09.52:004][636]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.09.52:013][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.09.52:013][636]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:09:52 am)
+[2024.09.11-17.09.52:013][636]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.09.52:044][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030373s)
+[2024.09.11-17.09.52:044][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.030426s)
+[2024.09.11-17.09.52:054][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.09.11-17.09.52:059][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.09.52:059][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.09.52:059][636]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.09.52:059][636]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2024.09.11-17.09.52:059][636]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2024.09.11-17.09.52:059][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.09.52:059][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.09.52:059][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.09.52:059][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.09.52:059][636]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.09.52:059][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.09.52:059][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.09.52:059][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.09.52:061][636]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.09.52:061][636]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.09.52:061][636]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.09.52:063][636]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.09.52:229][636]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.09.52:229][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.09.52:229][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.09.52:229][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.09.52:230][636]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2024.09.11-17.09.52:230][636]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2024.09.11-17.09.52:232][636]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2024.09.11-17.09.52:232][636]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2024.09.11-17.09.52:232][636]LogInit: FAudioDevice initialized with ID 66.
+[2024.09.11-17.09.52:232][636]LogAudio: Display: Audio Device (ID: 66) registered with world 'Jediah_Test'.
+[2024.09.11-17.09.52:232][636]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2024.09.11-17.09.52:236][636]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.09.52:244][636]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.09.52
+[2024.09.11-17.09.52:244][636]LogWorld: Bringing up level for play took: 0.008670
+[2024.09.11-17.09.52:248][636]LogOnline: OSS: Created online subsystem instance for: :Context_152
+[2024.09.11-17.09.52:251][636]PIE: Server logged in
+[2024.09.11-17.09.52:251][636]PIE: Play in editor total start time 0.238 seconds.
+[2024.09.11-17.09.55:555][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.09.55:555][790]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.09.55:555][790]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.09.55:556][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.09.55:576][790]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.09.55:580][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.09.55:591][790]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.09.11-17.09.55:592][790]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2024.09.11-17.09.55:592][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.09.11-17.09.55:594][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2024.09.11-17.09.55:679][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.09.55:685][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.09.11-17.09.55:737][791]LogPlayLevel: Display: Destroying online subsystem :Context_152
+[2024.09.11-17.10.33:027][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.10.33:200][383]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_11_FoliageType
+[2024.09.11-17.10.33:201][383]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Common_Tree_11_FoliageTypeDC77FEC94BAD177387AEE8A463B0586E.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_11_FoliageType.uasset'
+[2024.09.11-17.10.33:221][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 28.0 sec)
+[2024.09.11-17.10.33:224][383]AssetCheck: New page: Asset Save: SM_Common_Tree_11_FoliageType
+[2024.09.11-17.10.33:224][383]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_11_FoliageType.SM_Common_Tree_11_FoliageType
+[2024.09.11-17.10.36:639][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.10.36:778][532]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_10_FoliageType
+[2024.09.11-17.10.36:778][532]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Common_Tree_10_FoliageType5A5A8CF04273B7AFCB12358458FDDCA9.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_10_FoliageType.uasset'
+[2024.09.11-17.10.36:793][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 28.1 sec)
+[2024.09.11-17.10.36:795][532]AssetCheck: New page: Asset Save: SM_Common_Tree_10_FoliageType
+[2024.09.11-17.10.36:795][532]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_10_FoliageType.SM_Common_Tree_10_FoliageType
+[2024.09.11-17.10.38:041][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.10.38:200][588]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_08_FoliageType
+[2024.09.11-17.10.38:200][588]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Common_Tree_08_FoliageType25B7068442AD7C25E58425A4ECE1DE44.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_08_FoliageType.uasset'
+[2024.09.11-17.10.38:214][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 28.3 sec)
+[2024.09.11-17.10.38:216][588]AssetCheck: New page: Asset Save: SM_Common_Tree_08_FoliageType
+[2024.09.11-17.10.38:216][588]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_08_FoliageType.SM_Common_Tree_08_FoliageType
+[2024.09.11-17.10.39:094][628]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.10.39:234][628]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_07_FoliageType
+[2024.09.11-17.10.39:234][628]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Common_Tree_07_FoliageType5352CC16425CAE40E88E7192CB94C398.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_07_FoliageType.uasset'
+[2024.09.11-17.10.39:248][628]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 28.5 sec)
+[2024.09.11-17.10.39:249][628]AssetCheck: New page: Asset Save: SM_Common_Tree_07_FoliageType
+[2024.09.11-17.10.39:249][628]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_07_FoliageType.SM_Common_Tree_07_FoliageType
+[2024.09.11-17.10.40:238][673]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.10.40:382][673]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_03_FoliageType
+[2024.09.11-17.10.40:382][673]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Common_Tree_03_FoliageType0EE9EF524E7ED971BE9688AC21116B6F.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_03_FoliageType.uasset'
+[2024.09.11-17.10.40:394][673]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 28.6 sec)
+[2024.09.11-17.10.40:398][673]AssetCheck: New page: Asset Save: SM_Common_Tree_03_FoliageType
+[2024.09.11-17.10.40:398][673]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_03_FoliageType.SM_Common_Tree_03_FoliageType
+[2024.09.11-17.10.42:073][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.10.42:205][748]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_01_FoliageType
+[2024.09.11-17.10.42:205][748]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Common_Tree_01_FoliageType210A2C0541BA8F22AF9C25AFDF1FFEE8.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_01_FoliageType.uasset'
+[2024.09.11-17.10.42:218][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 28.8 sec)
+[2024.09.11-17.10.42:220][748]AssetCheck: New page: Asset Save: SM_Common_Tree_01_FoliageType
+[2024.09.11-17.10.42:220][748]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Common_Tree_01_FoliageType.SM_Common_Tree_01_FoliageType
+[2024.09.11-17.10.45:256][884]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.09.11-17.10.45:264][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.09.11-17.10.45:264][884]PIE: New page: PIE session: Jediah_Test (12 Sep 2024, 9:10:45 am)
+[2024.09.11-17.10.45:285][884]LogPlayLevel: Creating play world package: /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.10.45:313][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028191s)
+[2024.09.11-17.10.45:313][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/Jediah/Jediah_Test.Jediah_Test to /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test (0.028252s)
+[2024.09.11-17.10.45:324][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.09.11-17.10.45:332][884]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.11-17.10.45:332][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.11-17.10.45:332][884]LogAIModule: Creating AISystem for world Jediah_Test
+[2024.09.11-17.10.45:332][884]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2024.09.11-17.10.45:332][884]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2024.09.11-17.10.45:332][884]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.09.11-17.10.45:332][884]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.09.11-17.10.45:332][884]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.09.11-17.10.45:332][884]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.09.11-17.10.45:332][884]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.09.11-17.10.45:332][884]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.09.11-17.10.45:332][884]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.09.11-17.10.45:332][884]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.09.11-17.10.45:333][884]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.09.11-17.10.45:333][884]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.09.11-17.10.45:333][884]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.09.11-17.10.45:335][884]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.09.11-17.10.45:488][884]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.09.11-17.10.45:488][884]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.09.11-17.10.45:488][884]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.09.11-17.10.45:488][884]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.09.11-17.10.45:490][884]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2024.09.11-17.10.45:490][884]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2024.09.11-17.10.45:492][884]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2024.09.11-17.10.45:492][884]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2024.09.11-17.10.45:492][884]LogInit: FAudioDevice initialized with ID 67.
+[2024.09.11-17.10.45:492][884]LogAudio: Display: Audio Device (ID: 67) registered with world 'Jediah_Test'.
+[2024.09.11-17.10.45:492][884]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 67
+[2024.09.11-17.10.45:494][884]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.09.11-17.10.45:503][884]LogWorld: Bringing World /Game/Scene/Jediah/UEDPIE_0_Jediah_Test.Jediah_Test up for play (max tick rate 60) at 2024.09.12-01.10.45
+[2024.09.11-17.10.45:503][884]LogWorld: Bringing up level for play took: 0.008389
+[2024.09.11-17.10.45:507][884]LogOnline: OSS: Created online subsystem instance for: :Context_153
+[2024.09.11-17.10.45:510][884]PIE: Server logged in
+[2024.09.11-17.10.45:511][884]PIE: Play in editor total start time 0.247 seconds.
+[2024.09.11-17.11.37:605][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.11.37:606][933]LogWorld: BeginTearingDown for /Game/Scene/Jediah/UEDPIE_0_Jediah_Test
+[2024.09.11-17.11.37:606][933]LogWorld: UWorld::CleanupWorld for Jediah_Test, bSessionEnded=true, bCleanupResources=true
+[2024.09.11-17.11.37:607][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.11.37:613][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.09.11-17.11.37:620][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.11-17.11.37:634][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.09.11-17.11.37:635][933]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 67
+[2024.09.11-17.11.37:636][933]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2024.09.11-17.11.37:638][933]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2024.09.11-17.11.37:740][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.09.11-17.11.37:788][934]LogPlayLevel: Display: Destroying online subsystem :Context_153
+[2024.09.11-17.11.45:369][334]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.11.45:523][334]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType
+[2024.09.11-17.11.45:523][334]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Bush_FoliageTypeFE498F2C4B9C7E095E4EFEAC9F1989B1.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.uasset'
+[2024.09.11-17.11.45:539][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 28.9 sec)
+[2024.09.11-17.11.45:542][334]AssetCheck: New page: Asset Save: SM_Bush_FoliageType
+[2024.09.11-17.11.45:542][334]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Bush_FoliageType.SM_Bush_FoliageType
+[2024.09.11-17.11.54:247][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.11.54:377][812]LogSavePackage: Moving output files for package: /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType
+[2024.09.11-17.11.54:377][812]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/SM_Grass_FoliageTypeC9D060464A03A18D8117BEB45628D265.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.uasset'
+[2024.09.11-17.11.54:389][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 29.1 sec)
+[2024.09.11-17.11.54:392][812]AssetCheck: New page: Asset Save: SM_Grass_FoliageType
+[2024.09.11-17.11.54:392][812]LogContentValidation: Display: Validating /Script/Foliage.FoliageType_InstancedStaticMesh /Game/Stylized_PBR_Nature/Foliage/FoliageTypes/SM_Grass_FoliageType.SM_Grass_FoliageType
+[2024.09.11-17.12.11:933][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.11-17.12.12:091][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.09.11-17.12.12:214][717]LogSavePackage: Moving output files for package: /Game/Scene/Jediah/Jediah_Test
+[2024.09.11-17.12.12:215][717]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Saved/Jediah_Test5C334AC34B404E0F98FED592B700D277.tmp' to '../../../../../../Users/User/Documents/GitHub/Brackeys-2024/Content/Scene/Jediah/Jediah_Test.umap'
+[2024.09.11-17.12.12:222][717]LogFileHelpers: Saving map 'Jediah_Test' took 0.162
+[2024.09.11-17.12.12:255][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 322 ms (total: 29.4 sec)
+[2024.09.11-17.12.12:258][717]AssetCheck: New page: Asset Save: Jediah_Test
+[2024.09.11-17.12.12:258][717]LogContentValidation: Display: Validating /Script/Engine.World /Game/Scene/Jediah/Jediah_Test.Jediah_Test
