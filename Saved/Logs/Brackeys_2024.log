@@ -2795,3 +2795,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.09.12-12.57.31:078][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.09.12-12.57.31:106][242]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
 [2024.09.12-12.57.31:106][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.12-13.04.22:642][958]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.12-13.51.36:611][940]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.361 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6798 files in 8197 folders with total size 768 MiB.
